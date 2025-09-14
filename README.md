@@ -1,2 +1,22 @@
 # KG-CNNDTI
-The code for KG-CNNDTI: A Knowledge Graph-Enhanced Prediction Model for Drug-Target Interactions and Application in Virtual Screening of Natural Products against Alzheimer's Disease
+This repository contains the implementation of KG-CNNDTI, a knowledge graph-based convolutional neural network framework for drug-target interaction prediction, as described in our paper.
+
+<img width="1783" height="764" alt="workflow" src="https://github.com/user-attachments/assets/0e72238e-cba3-40bd-9444-269a8b4e5e8b" />
+
+
+## Overview
+
+KG-CNNDTI is a novel framework that combines knowledge graph representations with convolutional neural networks to predict drug-target interactions. The model leverages structured biological knowledge to enhance prediction accuracy and provide interpretable results.
+
+## Installation
+
+### Prerequisites
+- Conda (recommended) or Python 3.8
+- CUDA-enabled GPU (for faster training)
+
+### Setup Environment
+
+```bash
+conda create -n KGCNNDTI python=3.8
+conda activate KGCNNDTI
+pip install -r requirements.txt
