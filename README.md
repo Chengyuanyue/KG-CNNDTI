@@ -20,3 +20,11 @@ KG-CNNDTI is a novel framework that combines knowledge graph representations wit
 conda create -n KGCNNDTI python=3.8
 conda activate KGCNNDTI
 pip install -r requirements.txt
+```
+
+### Dataset
+
+Due to the large size of the dataset, it is not included directly in this repository.  
+You can download it from the following link:
+
+👉 [Download Dataset from Google Drive](https://drive.google.com/file/d/1TsfWzFYSpaO1lg-LSy4yhMXUSpb8HqlQ/view?usp=drive_link)
