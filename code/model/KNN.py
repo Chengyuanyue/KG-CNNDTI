@@ -38,10 +38,8 @@ def run_knn_experiment(random_state=None, n_iter=10):
     
     # KNN模型参数网格
     param_grid = {
-        "n_neighbors": list(range(3, 16, 2)),  # 扩展邻居范围
-        "weights": ["uniform", "distance"],
-        "p": [1, 2],  # 曼哈顿距离和欧氏距离
-        "algorithm": ["auto", "ball_tree", "kd_tree"]  # 添加算法选择
+        "n_neighbors": list(range(3, 10, 2)),  # 扩展邻居范围
+        "weights": ["uniform", "distance"]
     }
     
     # 使用分层K折交叉验证
@@ -173,4 +171,5 @@ def main():
     
 
 if __name__ == "__main__":
+
     main()
