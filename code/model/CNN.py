@@ -213,13 +213,13 @@ def run_cnn_experiment(param_combination, random_state, input_dim):
 def main():
     # 定义参数搜索空间
     param_grid = {
-        'out_channels1': [32, 64],
-        'out_channels2': [32, 64],
+        'out_channels1': [16，32],
+        'out_channels2': [64，128],
         'kernel_size1': [3, 5],
         'kernel_size2': [3, 5],
         'pool_size1': [2, 3],
         'pool_size2': [2, 3],
-        'hidden_dim': [128, 256, 512, 1024],
+        'hidden_dim': [64，128, 256],
         'dropout_rate': [0.3, 0.4, 0.5]
     }
     
@@ -348,3 +348,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
