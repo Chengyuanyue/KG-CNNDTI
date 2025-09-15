@@ -230,7 +230,7 @@ def main():
     # 
     selected_combinations = param_combinations
     
-    input_dim = 422  # 输入特征维度
+    input_dim = 768  # 输入特征维度
     
     all_results = []
     best_models = []
@@ -348,4 +348,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
