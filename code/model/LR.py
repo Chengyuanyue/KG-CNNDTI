@@ -32,8 +32,7 @@ def run_experiment(random_state=None, n_iter=10):
     # 参数网格
     param_grid = {
         'C': np.logspace(-3, 2, 20),
-        'solver': ['liblinear', 'lbfgs', 'newton-cg', 'saga'],
-        'class_weight': [None, 'balanced']
+        'solver': ['liblinear', 'newton-cg', 'saga']
     }
     
     # 使用分层K折交叉验证
